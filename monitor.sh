@@ -10,7 +10,6 @@ function init {
 }
 function checkFile {
 	if [[ $FILE == "" ]]; then
-		echo lollllll
 		return
 	fi
 	if ! [[ -f $FILE  ]]; then
